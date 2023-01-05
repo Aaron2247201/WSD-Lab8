@@ -9,14 +9,14 @@
   </head>
   <body>
     
-    <table border="1">
+    <table>
       <h2>List of Movies</h2>
       <caption>Enter name to search: <input type="text" ng-model="search" /></caption>
       <thead>
         <td>ID</td>
         <td>Movie</td>
         <td>Genre</td>
-        <th>Rating</th>
+        <td>Rating</td>
       </thead>
       <tr ng-repeat="item in movies|filter:search">
         <td>{{item.id}}</td>

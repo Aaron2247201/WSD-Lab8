@@ -27,7 +27,7 @@ angular.module("spaApp",["ngRoute"])
 })
 .controller('myctrl1',function($scope,$http)
 {
-   $http.get('https://raw.githubusercontent.com/raison024/WSD_Lab8/main/movie.json')
+   $http.get('https://raw.githubusercontent.com/Aaron2247201/WSD-Lab8/main/movie.json')
    .success(function(response){
      $scope.movies=response.records;
    })
@@ -35,7 +35,7 @@ angular.module("spaApp",["ngRoute"])
 
 .controller('myctrl2',function($scope,$http)
 {
-   $http.get('https://raw.githubusercontent.com/raison024/WSD_Lab8/main/movie.json')
+   $http.get('https://raw.githubusercontent.com/Aaron2247201/WSD-Lab8/main/movie.json')
    .success(function(response){
      $scope.movies=response.records;
    })
