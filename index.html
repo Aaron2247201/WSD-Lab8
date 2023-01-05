@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="spaApp" ng-controller="myctrl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular-route.min.js"></script>
+    <script src="./spa.js"></script>
+    <link rel="stylesheet" type="text/css" href="./christ/style.css" />
+  
+  <style>
+    a{
+      margin: 20px;
+    }
+  </style>
+
+  </head>
+  <body>
+    <div align="center">
+      <h1>Movie Management System</h1>
+      <a href="#/home">Home Page</a>
+      <a href="#/theatre">Latest Movies</a>
+      <a href="#/movie">Movies Database</a>
+    </div>
+    <div ng-view align="center"></div>
+  </body>
+</html>

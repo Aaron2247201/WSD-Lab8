@@ -1,9 +1,0 @@
-{"records":[ 
-{"id":1001,"name":"Interstellar","rating":"1","genre":"Thriller"},
-{"id":1004,"name":"Prestige","rating":"5","genre":"Action"},
-{"id":1005,"name":"Tenet","rating":"3","genre":"Thriller"},
-{"id":1001,"name":"Avatar","rating":"1","genre":"Action"},
-{"id":1003,"name":"Avengers","rating":"5","genre":"Sci-Fi"},
-{"id":1009,"name":"Gold","rating":"3","genre":"Romantic"},
-{"id":1011,"name":"The Lock","rating":"2","genre":"Action"}
-]}
