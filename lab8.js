@@ -23,12 +23,11 @@ app.config(function($routeProvider){
 
 
 app.controller("FirstController",function($scope, $http){
-    $http.get("https://parthsoni4.github.io/web/employee.json")
+    $http.get("https://aaron2247201.github.io/WSD-Lab8/employee.json")
     .success(function(response)
     {
         $scope.employee=response.records;
     })
-    // $scope.message="hello from first";
 });
 
 app.controller("SecondController",function($scope){
@@ -36,8 +35,7 @@ app.controller("SecondController",function($scope){
 });
 
 app.controller("ThirdController",function($scope, $http){
-    // $scope.message="hello from Third";
-    $http.get("https://parthsoni4.github.io/web/employee.json")
+    $http.get("https://aaron2247201.github.io/WSD-Lab8/employee.json")
     .success(function(response)
     {
         $scope.employee=response.records;

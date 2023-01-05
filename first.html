@@ -10,9 +10,6 @@
     <h1>First page</h1>
     <h2>welcome to first page</h2>
     <ul>
-        <!-- <li ng-repeat="emp in employee">
-            {{emp.name}}
-        </li> -->
         <table border="1" >
            <tr>
             <th>Name</th>
@@ -21,14 +18,17 @@
            </tr>
            <tr ng-repeat="emp in employee">
             <td>
-                {{emp.name}}
+                {{emp.id}}
 
             </td>
             <td>
-                {{emp.id}}
+                {{emp.name}}
             </td>
             <td>
-                {{emp.phno}}
+                {{emp.rating}}
+            </td>
+            <td>
+                {{emp.genre}}
             </td>
            </tr>
         </table>
